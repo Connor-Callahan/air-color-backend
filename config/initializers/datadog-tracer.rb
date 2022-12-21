@@ -4,5 +4,4 @@ Datadog.configure do |c|
   c.service = '"sneaker-db-postgres"'
   c.tracing.sampling.default_rate = 1.0
   c.profiling.enabled = true
-  c.appsec.enabled = true
 end
